@@ -64,7 +64,7 @@ RUN pip3 install -e /app/TTS[all]
 
 
 # Expose the port
-EXPOSE 8501
+EXPOSE 7777
 
 # Start both ollama server and your application
-CMD ["streamlit", "run", "indic_main.py"]
+CMD ["streamlit", "run", "app.py"]
