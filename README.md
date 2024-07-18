@@ -1,4 +1,4 @@
-# AI4ALPHA: Multilingual Speech Bot
+# Indic Multilingual Speech Bot
 
 ## Overview
 AI4ALPHA is a multilingual speech bot application built using Streamlit. The app enables users to record audio, transcribe speech, translate it into multiple languages, and generate responses using a language model. It supports language identification, speech-to-text transcription, and text translation.
@@ -46,19 +46,6 @@ AI4ALPHA is a multilingual speech bot application built using Streamlit. The app
     pip install -r requirements.txt
     ```
 
-### Dependencies
-- `streamlit`
-- `numpy`
-- `torchaudio`
-- `soundfile`
-- `concurrent.futures`
-- `langchain_core`
-- `langchain_community`
-- `transformers`
-- `audio_recorder_streamlit`
-- `speechbrain`
-- `logging`
-
 ## Running the Application
 
 1. **Ensure the virtual environment is activated.**
@@ -86,35 +73,6 @@ AI4ALPHA is a multilingual speech bot application built using Streamlit. The app
 3. **Language Model Interaction:**
     - The transcribed text will be used to generate a response using the integrated language model.
     - The response will be translated back to the detected language and provided as text and audio.
-
-## Functions Overview
-
-### `load_models()`
-Loads the required models for language identification, speech-to-text, and language model.
-
-### `lid(file_path)`
-Identifies the language of the audio file.
-
-### `stt(waveform, sample_rate, lang_name)`
-Transcribes speech to text.
-
-### `sttt(waveform, sample_rate)`
-Translates speech to text in English.
-
-### `tttt(text, lang_name)`
-Translates text to the target language text.
-
-### `ttts(text, lang_name)`
-Translates text to the target language speech.
-
-### `llm(translated_text_from_audio)`
-Generates a response using the language model.
-
-### `handle_audio(output_file)`
-Handles the audio recording, processing, and displaying the results.
-
-## Logging
-The application uses Python's `logging` module to log information and errors. Logs are helpful for debugging and understanding the application's flow.
 
 ## Contributing
 Contributions are welcome! Please fork the repository and submit pull requests for any enhancements or bug fixes.
