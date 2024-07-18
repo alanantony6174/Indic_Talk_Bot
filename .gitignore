@@ -1,6 +1,4 @@
 .venv
 app/tmp
-app/Trainer
-app/TTS
 /app/models/*/v1/
 
