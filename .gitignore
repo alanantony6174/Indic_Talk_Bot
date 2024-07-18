@@ -1,5 +1,9 @@
 .venv
 app/tmp
 /app/models/*
-/app/audio_files/*
-/app/output/*
+tmp/classifier.ckpt
+tmp/embedding_model.ckpt
+tmp/hyperparams.yaml
+tmp/label_encoder.ckpt
+app/output/output.wav
+app/audio_files/translated_audio.wav

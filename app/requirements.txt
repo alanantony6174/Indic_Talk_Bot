@@ -109,7 +109,7 @@ pillow==10.4.0
 platformdirs==4.2.2
 pluggy==1.5.0
 pooch==1.8.2
-protobuf==3.20.3
+protobuf==3.19.6
 pyarrow==17.0.0
 pycparser==2.22
 pydantic==2.8.2
@@ -117,6 +117,7 @@ pydantic_core==2.20.1
 pydeck==0.9.1
 Pygments==2.18.0
 pylint==2.10.2
+Pympler==1.1
 pynndescent==0.5.13
 pyparsing==3.1.2
 pypinyin==0.51.0
@@ -144,7 +145,7 @@ smmap==5.0.1
 soundfile==0.12.1
 speechbrain==1.0.0
 SQLAlchemy==2.0.31
-streamlit==1.29.0
+streamlit==1.22.0
 sympy==1.13.0
 tenacity==8.5.0
 tensorboardX==2.6
@@ -158,12 +159,10 @@ torchaudio==2.3.1
 torchvision==0.18.1
 tornado==6.4.1
 tqdm==4.66.4
-# Editable install with no version control (trainer==0.0.12)
--e /home/alan/Desktop/Indic_Talk_Bot/app/Trainer
+-e git+https://github.com/alanantony6174/Indic_Talk_Bot.git@4b9ab693952c24622f381b5ae2a9381127197a9a#egg=trainer&subdirectory=app/Trainer
 transformers==4.42.4
 triton==2.3.1
-# Editable install with no version control (TTS==0.7.1)
--e /home/alan/Desktop/Indic_Talk_Bot/app/TTS
+-e git+https://github.com/alanantony6174/Indic_Talk_Bot.git@4b9ab693952c24622f381b5ae2a9381127197a9a#egg=TTS&subdirectory=app/TTS
 typeguard==4.3.0
 typing-inspect==0.9.0
 typing_extensions==4.12.2
